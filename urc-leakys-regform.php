@@ -149,7 +149,7 @@ function do_leaky_paywall_register_form_urc($atts)
 				</p>
 */ ?>
 				<p class="form-row email-address">
-					<label for="email_address"><?php printf(__('Email Address', 'leaky-paywall')); ?> <i class="required">*</i></label>
+					<label for="email_address"><?php printf(__('Email (Username)', 'leaky-paywall')); ?> <i class="required">*</i></label>
 					<input type="email" size="20" id="email_address" name="email_address" required value="<?php echo $email; ?>" <?php echo !empty($email) && !empty($userdata) ? 'disabled="disabled"' : ''; ?> />
 				</p>
 <?php /*
